@@ -1,0 +1,1 @@
+powershell -executionPolicy bypass -noexit -file "c:\temp\test.ps1" > "c:\temp\test.txt"
