@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>No Sleep  (CDN)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="text-align: center; padding: 50px; font-family: sans-serif;">
+  <h1>🛏️ Wake me UP</h1>
+  <!-- <p>L'écran reste allumé tant que cette page est ouverte.</p>
+  <p>Ferme l'onglet pour réactiver la veille normale.</p> -->
+
+  <!-- NoSleep.js depuis CDN GitHub (version stable) -->
+  <script src="https://cdn.jsdelivr.net/gh/richtr/NoSleep.js@master/NoSleep.min.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      var noSleep = new NoSleep();
+      noSleep.enable();  // Activation automatique au chargement
+    });
+  </script>
+</body>
+</html>
